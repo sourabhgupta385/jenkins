@@ -12,7 +12,7 @@ $ docker run -d --name myjenkins -p 8080:8080 -p 50000:50000 sourabh385/custom-j
 
 ## Steps to trigger Jenkins jobs through command line:
 
-1. Specify the value of JENKINSURL, USERNAME, PASSWORD in _build-jobs.sh_ file.
+1. Specify the value of JENKINSURL, USERNAME and PASSWORD in _build-jobs.sh_ file.
 
 2. Execute the script.
 
